@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+/* 
+html {
+  font-size: 62.5%;
+} */
+
+body {
+  padding: 4.5rem;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #777;
+  line-height: 1.7;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  font-size: 16px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.list-books {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 5rem;
+  background-color: #fff;
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.card:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.02);
+  cursor: pointer;
+}
